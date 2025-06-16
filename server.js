@@ -15,7 +15,7 @@ app.get('/hello-world', (req, res) => {
 app.get('/hello-world.json', (req, res) => {
   res.type('application/json').send(JSON.stringify({
     status : 200,
-    data : "ok"
+    data : "hello world"
   }))
 });
 
